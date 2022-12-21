@@ -20,7 +20,7 @@
                 <a-menu-item v-if="!userStore.userData" key="register">
                     <router-link to="/register">Register</router-link>
                 </a-menu-item>
-                <a-menu-item v-if="!userStore.userData" key="sobrenosotros">
+                <a-menu-item key="sobrenosotros">
                     <router-link to="/sobrenosotros">Sobre Nosotros</router-link>
                 </a-menu-item>
                 <a-menu-item

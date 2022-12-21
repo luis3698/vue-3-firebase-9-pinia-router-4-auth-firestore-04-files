@@ -63,18 +63,18 @@ databaseStore.getUrls();
 
 const confirm = async (id) => {
     const error = await databaseStore.deleteUrl(id);
-    if (!error) return message.success("Se eliminó con éxito 💋");
+    if (!error) return message.success("Se eliminó con éxito ✅");
     return message.error(error);
 };
 
 const cancel = () => {
-    message.error("no se eliminó 💋");
+    message.error("no se eliminó ❌");
 };
 
 const copiarPortapapeles = async (id) => {
     // console.log(id);
     if (!navigator.clipboard) {
-        return message.error("No se pudo copiar al portapapeles 💋");
+        return message.error("No se pudo copiar al portapapeles ❌");
     }
 
     const path = `${window.location.origin}/${id}`;
@@ -83,9 +83,9 @@ const copiarPortapapeles = async (id) => {
     const err = await navigator.clipboard.writeText(path);
     // console.log(err);
     if (err) {
-        message.error("No se pudo copiar al portapapeles 💋");
+        message.error("No se pudo copiar al portapapeles ❌");
     } else {
-        message.success("Se copió con éxito 💋");
+        message.success("Se copió con éxito ✅");
     }
 
     // navigator.clipboard

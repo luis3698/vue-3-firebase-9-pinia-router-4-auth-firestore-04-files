@@ -75,19 +75,19 @@ const onFinish = async (values) => {
     );
 
     if (!error) {
-        return message.success("Bienvenidos a la super apps 💋");
+        return message.success("Bienvenidos a la super apps 👋");
     }
 
     switch (error) {
         case "auth/user-not-found":
-            message.error("No existe el correo registrado 💋");
+            message.error("No existe el correo registrado ❌");
             break;
         case "auth/wrong-password":
-            message.error("Error de contraseña 💋");
+            message.error("Error de contraseña ❌");
             break;
         default:
             message.error(
-                "Ocurrió un error en el servidor 💋 intentelo más tarde..."
+                "Ocurrió un error en el servidor ❌ intentelo más tarde..."
             );
             break;
     }

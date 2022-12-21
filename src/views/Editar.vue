@@ -55,14 +55,14 @@ const onFinish = async (value) => {
     const error = await databaseStore.updateUrl(route.params.id, formState.url);
     if (!error) {
         formState.url = "";
-        return message.success("URL editada 💋");
+        return message.success("URL editada ✅");
     }
 
     switch (error) {
         // buscar errores de firestore
         default:
             message.error(
-                "Ocurrió un error en el servidor 💋 intentelo más tarde..."
+                "Ocurrió un error en el servidor ❌ intentelo más tarde..."
             );
             break;
     }
