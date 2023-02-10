@@ -24,6 +24,28 @@ Esta pagina web incluye los siguientes componentes:
 * 📜 Documentación de la API 
 * 📊 Recursos de pruebas 
 
+# Página web con login, registro, CRUD y subida de fotos
+
+Esta página web le permitirá a los usuarios navegar, registrarse, iniciar sesión, eliminar y actualizar datos, así como también subir fotos. 
+
+## Funcionalidades
+
+### Login
+
+Los usuarios podrán iniciar sesión en la página web para acceder a su perfil, donde podrán ver sus datos y fotos subidas.
+
+### Registro
+
+Los usuarios podrán registrarse en la página web para poder acceder a su perfil y disfrutar de sus funcionalidades.
+
+### CRUD
+
+Los usuarios podrán actualizar y eliminar sus datos. También podrán ver los datos de otros usuarios.
+
+### Subida de fotos
+
+Los usuarios podrán subir fotos desde su dispositivo para compartirlas con otros
+
 🤝 Si necesita ayuda para configurar su aplicación, no dude en contactarme.
 
 ¡Gracias por usar mi proyecto! 🙌
